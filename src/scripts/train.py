@@ -33,7 +33,7 @@ from retention_ai.tracking.mlflow_tracker import (
 
 
 DATA_PATH = Path(
-    "data/raw/Telco_customer_churn.xlsx"
+    "../data/raw/Telco_customer_churn.xlsx"
 )
 
 
