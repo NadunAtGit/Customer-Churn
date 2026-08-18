@@ -32,10 +32,14 @@ from retention_ai.tracking.mlflow_tracker import (
 )
 
 
-DATA_PATH = Path(
-    "../data/raw/Telco_customer_churn.xlsx"
-)
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
+DATA_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "Telco_customer_churn.xlsx"
+)
 
 def main():
 
@@ -136,7 +140,7 @@ def main():
 
     setup_mlflow(
         experiment_name=(
-            "RetentionAI-Churn"
+            "Customer Retention"
         )
     )
 

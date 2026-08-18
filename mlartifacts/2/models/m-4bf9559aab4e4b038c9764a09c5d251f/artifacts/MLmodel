@@ -1,0 +1,56 @@
+artifact_path: mlflow-artifacts:/2/models/m-4bf9559aab4e4b038c9764a09c5d251f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.15
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - catboost.core.CatBoostClassifier
+    - numpy.dtype
+is_signature_from_type_hint: false
+mlflow_version: 3.15.1
+model_id: m-4bf9559aab4e4b038c9764a09c5d251f
+model_size_bytes: 670362
+model_uuid: m-4bf9559aab4e4b038c9764a09c5d251f
+prompts: null
+run_id: ae201b978ca84a1e841969f812a7a377
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "Gender", "required": true}, {"type": "string",
+    "name": "Senior Citizen", "required": true}, {"type": "string", "name": "Partner",
+    "required": true}, {"type": "string", "name": "Dependents", "required": true},
+    {"type": "long", "name": "Tenure Months", "required": true}, {"type": "string",
+    "name": "Phone Service", "required": true}, {"type": "string", "name": "Multiple
+    Lines", "required": true}, {"type": "string", "name": "Internet Service", "required":
+    true}, {"type": "string", "name": "Online Security", "required": true}, {"type":
+    "string", "name": "Online Backup", "required": true}, {"type": "string", "name":
+    "Device Protection", "required": true}, {"type": "string", "name": "Tech Support",
+    "required": true}, {"type": "string", "name": "Streaming TV", "required": true},
+    {"type": "string", "name": "Streaming Movies", "required": true}, {"type": "string",
+    "name": "Contract", "required": true}, {"type": "string", "name": "Paperless Billing",
+    "required": true}, {"type": "string", "name": "Payment Method", "required": true},
+    {"type": "double", "name": "Monthly Charges", "required": true}, {"type": "double",
+    "name": "Total Charges", "required": true}, {"type": "long", "name": "CLTV", "required":
+    true}, {"type": "long", "name": "NumberOfServices", "required": true}, {"type":
+    "long", "name": "IsMonthToMonth", "required": true}, {"type": "long", "name":
+    "HasTechSupport", "required": true}, {"type": "long", "name": "HasOnlineSecurity",
+    "required": true}, {"type": "long", "name": "HasPartnerOrDependents", "required":
+    true}, {"type": "double", "name": "AvgMonthlySpend", "required": true}, {"type":
+    "double", "name": "ChargesPerService", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-08-18 15:29:10.249058'
