@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: retention-ai
+Version: 0.1.0
+Summary: Production-grade customer churn and retention intelligence platform
+Requires-Python: >=3.10
