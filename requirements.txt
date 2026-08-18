@@ -1,0 +1,39 @@
+# Data processing
+pandas
+numpy
+openpyxl
+
+# Visualization
+matplotlib
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+catboost
+
+# Explainability
+shap
+
+# Experiment tracking
+mlflow
+
+# API
+fastapi
+uvicorn[standard]
+pydantic
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Environment variables
+python-dotenv
+
+# Jupyter / Development
+jupyter
+ipykernel
+
+# Testing
+pytest
+pytest-cov

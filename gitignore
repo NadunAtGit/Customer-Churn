@@ -1,0 +1,99 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.local
+*.env
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# PyCharm
+# ==============================
+.idea/
+
+# ==============================
+# Data
+# ==============================
+data/raw/
+data/processed/
+data/predictions/
+
+# Keep data folders in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/predictions/.gitkeep
+
+# ==============================
+# Model artifacts
+# ==============================
+models/
+artifacts/
+*.pkl
+*.joblib
+*.cbm
+*.onnx
+
+# ==============================
+# MLflow
+# ==============================
+mlruns/
+mlartifacts/
+mlflow.db
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+
+# ==============================
+# Testing
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Build / packaging
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.bak

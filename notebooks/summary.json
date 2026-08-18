@@ -1,0 +1,200 @@
+[
+    {
+        "Column Name":"CustomerID",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Count",
+        "NaN Count":0,
+        "Data Type":"int64",
+        "Type Class":"Numerical"
+    },
+    {
+        "Column Name":"Country",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"State",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"City",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Zip Code",
+        "NaN Count":0,
+        "Data Type":"int64",
+        "Type Class":"Numerical"
+    },
+    {
+        "Column Name":"Lat Long",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Latitude",
+        "NaN Count":0,
+        "Data Type":"float64",
+        "Type Class":"Numerical"
+    },
+    {
+        "Column Name":"Longitude",
+        "NaN Count":0,
+        "Data Type":"float64",
+        "Type Class":"Numerical"
+    },
+    {
+        "Column Name":"Gender",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Senior Citizen",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Partner",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Dependents",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Tenure Months",
+        "NaN Count":0,
+        "Data Type":"int64",
+        "Type Class":"Numerical"
+    },
+    {
+        "Column Name":"Phone Service",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Multiple Lines",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Internet Service",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Online Security",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Online Backup",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Device Protection",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Tech Support",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Streaming TV",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Streaming Movies",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Contract",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Paperless Billing",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Payment Method",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Monthly Charges",
+        "NaN Count":0,
+        "Data Type":"float64",
+        "Type Class":"Numerical"
+    },
+    {
+        "Column Name":"Total Charges",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Churn Label",
+        "NaN Count":0,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    },
+    {
+        "Column Name":"Churn Value",
+        "NaN Count":0,
+        "Data Type":"int64",
+        "Type Class":"Numerical"
+    },
+    {
+        "Column Name":"Churn Score",
+        "NaN Count":0,
+        "Data Type":"int64",
+        "Type Class":"Numerical"
+    },
+    {
+        "Column Name":"CLTV",
+        "NaN Count":0,
+        "Data Type":"int64",
+        "Type Class":"Numerical"
+    },
+    {
+        "Column Name":"Churn Reason",
+        "NaN Count":5174,
+        "Data Type":"object",
+        "Type Class":"Categorical"
+    }
+]
